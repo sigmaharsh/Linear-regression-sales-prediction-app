@@ -1,5 +1,5 @@
 # Linear-regression-sales-prediction-app
-<h2>This app is a Machine learning model which runs svm.py app which is basically predicting sales or a oranization<h2>
+<h2>This app is a Machine learning model which runs svm.py app which is basically predicting sales of an organization since i have used streamlit it provides a decent ui </h2>
 <p> I have used the following libraries below </p>
 <ul>
 	<li> streamlit </li>
