@@ -2,10 +2,10 @@
 <h2>This app is a Machine learning model which runs svm.py app which is basically predicting sales or a oranization<h2>
 <p> I have used the following libraries below </p>
 <ul>
-	<li> streamlit <li>
-	<li> pandas <li>
-	<li> matplotlib <li>
-	<li> scikit-learn <li>
+	<li> streamlit </li>
+	<li> pandas </li>
+	<li> matplotlib </li>
+	<li> scikit-learn </li>
 </ul>
 <body>
   <h1>Streamlit App Setup Guide</h1>
