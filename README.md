@@ -1,5 +1,5 @@
 # Linear-regression-sales-prediction-app
-<h2>This app is a Machine learning model which runs svm.py app which is basically predicting sales of an organization since i have used streamlit it provides a decent ui </h2>
+<h2>This app is a Machine learning model which runs app.py app which is basically predicting sales of an organization since i have used streamlit it provides a decent ui </h2>
 <p> I have used the following libraries below </p>
 <ul>
 	<li> streamlit </li>
@@ -23,8 +23,8 @@
   <h3>1. Create a Virtual Environment</h3>
   <p>Open a terminal in your project directory and run:</p>
   <pre><code>python3 -m venv prediction</code></pre>
-  <p>move the svm.py and the .csv file into virtual enviornment folder named "prediction"</p>
-    <pre><code>cp svm.py ~/path/to/the/predictionfolder</code></pre>
+  <p>move the app.py and the .csv file into virtual enviornment folder named "prediction"</p>
+    <pre><code>cp app.py ~/path/to/the/predictionfolder</code></pre>
     <pre><code>cp sales_data_past_2_years.csv  ~/path/to/the/predictionfolder</code></pre>
 
   <h3>2. Activate the Virtual Environment</h3>
@@ -36,8 +36,8 @@
   <pre><code>pip install streamlit</code></pre>
 
   <h3>4. Run the Streamlit App</h3>
-  <p>Navigate to the directory containing <code>svm.py</code> and run:</p>
-  <pre><code>streamlit run svm.py</code></pre>
+  <p>Navigate to the directory containing <code>app.py</code> and run:</p>
+  <pre><code>streamlit run app.py</code></pre>
 
   <h3>5. Stop the Streamlit App</h3>
   <p>To stop the app, press <strong>CTRL + C</strong> in the terminal.</p>
