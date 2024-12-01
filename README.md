@@ -56,4 +56,7 @@
   </ul>
 
   <p> the streamlit app now should run on your localhost port 8501</p>
+  <h2>Output</h2>
+  <img src="finaloutput.png" alt=" output image" />
+
 
