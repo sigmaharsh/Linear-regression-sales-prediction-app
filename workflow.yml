@@ -1,0 +1,22 @@
+id: sales-prediction-workflow
+namespace: default
+tasks:
+  - id: setup-environment
+    type: io.kestra.core.tasks.systems.bash.Bash
+    commands:
+      - python3 -m venv venv  # Create virtual environment
+      - source venv/bin/activate  # Activate virtual environment
+      - pip install -r requirements.txt  # Install dependencies
+
+  - id: copy-app-files
+    type: io.kestra.core.tasks.systems.bash.Bash
+    commands:
+      - cp app.py venv/  # Copy app.py to virtual environment folder
+      - cp sales_data_past_2_years.csv venv/  # Copy the dataset to the virtual environment folder
+      - cp requirements.txt venv/  # Copy the requirements file to virtual environment folder
+
+  - id: run-sales-prediction
+    type: io.kestra.core.tasks.systems.bash.Bash
+    commands:
+      - source venv/bin/activate  # Activate virtual environment
+      - streamlit run venv/app.py  # Run the Streamlit app
